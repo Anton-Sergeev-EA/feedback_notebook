@@ -18,18 +18,18 @@
 Структура проекта:
 feedback_notebook/
 │
-├── __init__.py           # Идентификация пакета
-├── applications.xlsx     # Файл для хранения данных
-├── company_checker.py    # Проверяет наличие компании в базе данных
+├── __init__.py # Идентификация пакета
+├── applications.xlsx # Файл для хранения данных
+├── company_checker.py # Проверяет наличие компании в базе данных
 ├── create_main_window.py # Создает и настраивает главное окно приложения
-├── handle_submit.py      # Обрабатывает отправку формы 
-├── LICENSE.md            # Apache License
-├── main.py               # Основной файл программы
-├── README.md             # О проекте
-├── requirements.txt      # Зависимости
-├── save_company.py       # Сохраняет данные о компании в Excel-файл
-├── setup.py              # Установка пакета
-└── ui_creator.py         # Создает пользовательский интерфейс приложения
+├── handle_submit.py # Обрабатывает отправку формы 
+├── LICENSE.md # Apache License
+├── main.py # Основной файл программы
+├── README.md # О проекте
+├── requirements.txt # Зависимости
+├── save_company.py # Сохраняет данные о компании в Excel-файл
+├── setup.py # Установка пакета
+└── ui_creator.py # Создает пользовательский интерфейс приложения
 
 Работа с данными:
 Программа использует Excel-файл applications.xlsx для хранения информации. 
